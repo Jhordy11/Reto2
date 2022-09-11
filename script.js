@@ -43,7 +43,6 @@ function iniciarJuego() {
     resetearValores();
     mostrarTeclado();
     escogerPalabraAlAzar();
-    console.log(palabraAlAzar);
     generarLetrasDOM();
     document.addEventListener('keydown', listener);
     juego.style.display="block";
@@ -208,7 +207,6 @@ async function  guardarPalabra(){
     let a = document.querySelector(".palabra2").value;
     a = a.toUpperCase();
     if(a != "" && !palabras.includes(a) && comprobarTodasLasLetras(letrasPermitidas,a)){
-        console.log(a);
         palabras.push(a);
         alertar(3);
         await sleep(1700);
