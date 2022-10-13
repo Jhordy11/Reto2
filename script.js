@@ -4,7 +4,7 @@ const menu=document.querySelector(".menu");
 const agregar = document.querySelector(".flexAgregar");
 var letrasDOM = document.querySelector(".letras")
 var teclas = document.querySelector(".teclas");
-var palabras = ["CAMINAR","SALTAR","ESCRIBIR","MIRAR","SOPLAR","PERRO","GATO","LORO","CAIMAN","CABALLO","PERA","MANZANA","SANDIA","NARANJA","DURAZNO","AMARILLO","VERDE","AZUL","ROJO","BLANCO"]
+var palabras = ["CAMINAR","JAVA","SALTAR","ESCRIBIR","MIRAR","SOPLAR","PERRO","GATO","LORO","CAIMAN","CABALLO","PERA","MANZANA","SANDIA","NARANJA","DURAZNO","AMARILLO","VERDE","AZUL","ROJO","BLANCO"]
 var palabraAlAzar;
 var letrasEncontradas="";
 var letrasPermitidas="QWERTYUIOPASDFGHJKLZXCVBNM";
